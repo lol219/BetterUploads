@@ -34,7 +34,7 @@
 
     start() {
         if (!global.ZeresPluginLibrary) return window.BdApi.alert("Library Missing",`The library plugin needed for ${this.getName()} is missing.<br /><br /> <a href="https://betterdiscord.net/ghdl?url=https://raw.githubusercontent.com/rauenzi/BDPluginLibrary/master/release/0PluginLibrary.plugin.js" target="_blank">Click here to download the library!</a>`);
-        ZLibrary.PluginUpdater.checkForUpdate(this.getName(), this.getVersion(), "");
+        ZLibrary.PluginUpdater.checkForUpdate(this.getName(), this.getVersion(), "https://raw.githubusercontent.com/lol219/BetterUploads/main/BetterUploads.plugin.js");
     }
 
     stop() {
@@ -58,7 +58,7 @@ module.exports = (() => {
             "description":
             "Aditionnal Tools to upload or scan files to discord (API)",
             "github":"https://github.com/lol219/",
-            "github_raw":""
+            "github_raw":"https://raw.githubusercontent.com/lol219/BetterUploads/main/BetterUploads.plugin.js"
         },
         "changelog":[
             {
