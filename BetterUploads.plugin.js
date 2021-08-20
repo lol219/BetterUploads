@@ -65,7 +65,7 @@ module.exports = (() => {
                 "title": 'fixed',
                 "type": 'Fixed :',
                 "items": [
-                "**Popup** : Fixed the annoying popup when it asks you to download CrashRecovery plugin , if you have it it won't show the message again and never :D  "
+                "**Settings** : Fixed the crash settings   "
                 
                 
                 ]
