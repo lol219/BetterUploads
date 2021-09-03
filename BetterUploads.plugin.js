@@ -65,7 +65,8 @@ module.exports = (() => {
                 "title": 'fixed',
                 "type": 'Fixed :',
                 "items": [
-                "**Settings** : Fixed the crash settings   "
+                "**Virus Total** : Fixed VirusTotal Api Connection",
+		"**Library** : My dev commited mistake while making the library please remobe bug report helper and manually download alexlib on my repository"
                 
                 
                 ]
