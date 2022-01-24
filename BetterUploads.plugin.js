@@ -29,7 +29,7 @@
  class BetterUploads{
     getName() {return "BetterUploads";}
     getDescription() {return "Aditionnal Tools to upload or scan files to discord (API)";}
-    getVersion() {return "0.0.2";}
+    getVersion() {return "0.0.3";}
     getAuthor() {return "Alexandro";}
 
     start() {
@@ -54,7 +54,7 @@ module.exports = (() => {
                     "github_username":"lol219"
                 }
             ],
-            "version":"0.0.2",
+            "version":"0.0.3",
             "description":
             "Aditionnal Tools to upload or scan files to discord (API)",
             "github":"https://github.com/lol219/",
@@ -65,8 +65,7 @@ module.exports = (() => {
                 "title": 'fixed',
                 "type": 'Fixed :',
                 "items": [
-                "**Virus Total** : Fixed VirusTotal Api Connection",
-		"**Library** : My dev commited mistake while making the library please remobe bug report helper and manually download alexlib on my repository"
+               "A bug that it doesn't show the cloud icon"
                 
                 
                 ]
